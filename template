@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  [[$Nolimits_head]]
+<body>
+<div id="wrapper"><!-- #wrapper -->
+
+    [[$Nolimits_nav]]
+  
+    <hr />
+
+    [[$Nolimits_header]]
+
+    <div class="clearall"></div>
+
+  <section id="main"><!-- #main content -->
+
+    [[$Nolimits_greeting]]
+
+    <div class="clearall"></div>
+
+    <section id="infoboxes">
+  
+    [[$Nolimits_infoboxleft]]
+
+    [[$Nolimits_infoboxmid]]
+      
+    [[$Nolimits_infoboxright]]
+
+
+
+    </section>
+
+    [[$Nolimits_content]] 
+            
+</section><!-- end of #main content -->
+
+  [[$Nolimits_footer]]
+
+</div><!-- #wrapper -->
+<!-- Free template created by http://freehtml5templates.com -->
+<!-- MODXefied by Allan Brooke (allanb at MODX forums) http:allanb.za.net -->
+</body>
+</html>​

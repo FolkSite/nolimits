@@ -1,0 +1,14 @@
+Nolimts HTML5 template converted to MODX.
+Free template created by http://freehtml5templates.com
+
+Copy nolimits directory(and all its contents) to assets/templates
+
+Create template Nolimits and copy contents of template to new template.
+
+Create chunks with names of files in chunks dir and copy their contents into newly created chunks
+
+Modify nolimits_content chunk as required for your content
+
+TODO create wayfinder navigation chunk
+
+MODXefied by Allan Brooke (allanb at MODX forums) http:allanb.za.net 

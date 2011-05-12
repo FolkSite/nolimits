@@ -1,0 +1,4 @@
+    <article id="greeting">
+      <img src="[[++site_url]]assets/templates/nolimits/images/nolimits.jpg" alt="" class="alignright" /><h2>Helping Your Business Grow</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. <a href="#">Duis sagittis ipsum</a>. Ei est delicata philosophia, quo id evertitur temporibus. Et ullum pertinax pri, elit regione ei mel, eam at mutat lorem. Ad mea omittam mediocrem tincidunt. Quo inani possim senserit no, doctus intellegam ut quo.</p>
+    <p class="learnmore"><a href="#">Learn More &gt;</a></p>
+    </article>​
