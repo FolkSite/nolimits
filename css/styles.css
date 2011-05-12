@@ -119,6 +119,10 @@ line-height: 38px;
 text-decoration: none;
 }
 
+nav .menu ul li.last  a {
+border-right: none;
+}
+
 nav .menu ul li a:hover {
 text-decoration: underline;
 }
