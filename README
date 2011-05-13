@@ -9,6 +9,6 @@ Create chunks with names of files in chunks dir and copy their contents into new
 
 Modify nolimits_content chunk as required for your content
 
-Have created wayfinder navigation chunk. Just copy /chunk/Nolimits_nav_wayfinder contents to Nolimits_nav CHUNK 
+Have created new wayfinder navigation chunk. Just copy /chunk/Nolimits_nav_wayfinder contents to Nolimits_nav CHUNK 
 
 MODXefied by Allan Brooke (allanb at MODX forums) http:allanb.za.net 
