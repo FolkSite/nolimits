@@ -1,5 +1,7 @@
 /* Created by http://freehtml5templates.com */
 
+@import "color";
+
 /* reset */
 * {
 margin: 0;
@@ -13,7 +15,7 @@ display: block;
 
 body {
 line-height: 1;
-background: #4E86D9;
+background: @base + #4E85DA;
 color: #555;
 font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
 font-size: 14px;
@@ -24,9 +26,9 @@ font-size: 14px;
 #wrapper {
 width: 960px;
 margin: 0 auto;
-background-color: #BEDEAF;
-background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F9FCF7), to(#BEDEAF));
-background: -moz-linear-gradient(top, #F9FCF7 0%, #BEDEAF 100%);
+background-color: @base + #BEDD80;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@base + #F9FBF8), to(@base + #BEDD80));
+background: -moz-linear-gradient(top, @base + #F9FBF8 0%,@base + #BEDD80  100%);
 border: 2px solid #333;
 /* curved border radius */
 -moz-border-radius: 5px;
@@ -141,7 +143,7 @@ width: 500px;
 }
 
 header h1 a {
-color: #1E469B;
+color: @base + #1E4596;
 font-weight: bold;
 text-decoration: none;
 text-shadow: 0px 2px 3px #777;
@@ -164,7 +166,7 @@ padding-top: 20px;
 #greeting h2 {
 display: inline;
 font-size: 20px;
-color: #1E469B;
+color: @base + #1E4596;
 }
 
 #greeting p {
@@ -182,7 +184,7 @@ border: none;
 
 .learnmore {
 display: block;
-background-color: #1E469B;
+background-color: @base + #1E4596;
 padding: 5px 10px;
 float: left;
 /* curved border radius */
@@ -204,7 +206,7 @@ margin: 0 10px;
 }
 
 #main h1, h2, h3, h4, h5, h6 {
-color: #1E469B;
+color: @base + #1E4596;
 margin: 0 0 20px 0;
 line-height: 1.5em;
 }

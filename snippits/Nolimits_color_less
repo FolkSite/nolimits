@@ -1,0 +1,7 @@
+$site_mainColor = $modx->config['site_main_color'];
+  
+  if ( !($handle = fopen("assets/templates/nolimits/css/color.less","w") ) ) die ( "Cannot write file assets/templates/nolimits/css/color.less" );
+  fwrite( $handle, "@base : " . $site_mainColor . ";\n" );
+  
+  fclose( $handle);
+  return;​
