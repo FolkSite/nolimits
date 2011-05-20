@@ -11,4 +11,16 @@ Modify nolimits_content chunk as required for your content
 
 Have created new wayfinder navigation chunk. Just copy /chunk/Nolimits_nav_wayfinder contents to Nolimits_nav CHUNK 
 
+LATEST ADDITION Less.js (allows color scheme to be changed from MODX manager via site variable)
+    To include this feature you need all the files in this repository.
+    Create new Site variable System> System Settings> Create New Setting 
+        Key:            site_main_color
+        Name:           Site Main Color
+        Area Lexicon:   site
+        Value:          #0000FF
+        Description:    Use this variable for base of color scheme
+    Save Settings
+    Copy contents of file chunk/Nolimits_head_less file to Nolimots_head chunk in Elements
+    Make sure file nolimits/css/color.less is writable by the webserver
+
 MODXefied by Allan Brooke (allanb at MODX forums) http:allanb.za.net 
